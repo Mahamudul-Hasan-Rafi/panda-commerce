@@ -24,3 +24,37 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+
+.cat1{
+    background-image: linear-gradient(to right, rgb(241, 181, 70), rgb(253, 143, 0));
+}
+.cat2{
+    background-image: linear-gradient(to right, rgb(184, 119, 181), rgb(230, 10, 222));
+}
+.cat3{
+    background-image: linear-gradient(to right, rgba(0,0,255,0.5), rgba(0,0,255,1));
+}
+
+.cat1, .cat2, .cat3{
+    border-radius: 10px;
+    padding: 15px 0px;
+    color: #fff;
+}
+
+.category img{
+    width: 120px;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightslategray;
+}
+
+.card img{
+    width: 80%;
+}
+
+.card-footer{
+    border-top: none;
+    background-color: #fff;
+}
