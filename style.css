@@ -47,6 +47,7 @@
 
 .card{
     border: none;
+    border-radius: 5px;
     box-shadow: 5px 5px 10px lightslategray;
 }
 
@@ -57,4 +58,12 @@
 .card-footer{
     border-top: none;
     background-color: #fff;
+}
+
+.subscribe{
+    height: 300px;
+}
+
+footer{
+    text-align: center;
 }
